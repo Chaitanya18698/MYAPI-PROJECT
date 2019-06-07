@@ -636,7 +636,7 @@ server.route({
 
 });
 await server.start();
-    console.log('Server running on %s',server.info.uri);
+    console.log('SErver',server.info.uri);
 }
 process.on('unhandledRejection',(err)=>{
     console.log(err)
